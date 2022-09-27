@@ -3,13 +3,26 @@
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    flex-wrap: row-wrap;
 }
 
-.container {
-    border: 2px solid black;
+/* .container-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    opacity: 0.5;
     height: 500px;
+    border: 2px solid black;
+    background: url(./bg-one.jpg) no-repeat center center/cover;
+} */
+
+.container-1 {
+    border: 2px solid black;
+    height: 590px;
+
     /* position: absolute; */
-    background: url(./artur-aldyrkhanov-u159a2eL6UE-unsplash.jpg) no-repeat center center/cover;
+    background: url(./bg-one.jpg) no-repeat center center/cover;
 }
 
 
@@ -33,25 +46,62 @@
 
 }
 
+p {
+    font-size: 20px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+a:hover{
+
+    color: rgb(115, 33, 33);
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(37, 28, 28);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(47, 30, 30);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(120, 105, 255);
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
 .print-button {
     display: flex;
-    border: 2px solid lightgray;
+    /* border: 2px solid rgb(131, 34, 34); */
     border-radius: 20px;
     justify-content: space-between;
     width: 160px;
-    padding: 10px;
-    font-weight: bold;
+    padding: 15px;
+    font-weight: bolder;
     font-size: 25px;
-    background-color: grey;
-    
-    margin-left: 50px;
+    background-color: rgb(240, 68, 68);
+
+    margin-left: 80px;
     margin-bottom: 80px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
-.navbar {
+.navi-navbar {
     position: sticky;
-    top: 10px;
+    top: 0px;
     display: flex;
     flex-direction: row;
     background-color: grey;
@@ -81,8 +131,7 @@
     width: 75px;
     height: 75px;
     overflow: hidden;
-    animation: cubic-bezier(1, 0, 0, 1);
-    
+
 }
 
 .info,
@@ -92,7 +141,7 @@
     display: flex;
     font-size: 20px;
     font-weight: bolder;
-    
+
     justify-content: space-between;
     padding: 20px;
 }
@@ -106,6 +155,7 @@
 
 .information {
     display: flex;
+    
     flex-direction: column;
     border: 1px solid grey;
     width: 33.3%;
@@ -118,14 +168,16 @@
 
 .info1 {
     display: flex;
+    
     font-size: 30px;
     justify-content: center;
     padding: 20px;
-
+    margin-top: 20px;
 }
 
 .detail {
     display: flex;
+    
     padding: 80px;
 }
 
@@ -136,21 +188,24 @@
 
 .resume {
     display: flex;
+    
     margin-bottom: 40px;
 }
 
 .s-l {
     display: flex;
     flex-direction: column;
-
-    margin-top: 10px;
+    
+    margin-top: -3px;
 }
 
 .info2 {
     font-size: 25px;
     display: flex;
+    
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .details {
@@ -164,7 +219,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 75px;
     /* border: 2px solid black; */
     height: 200px;
     background-color: grey;
@@ -175,7 +230,6 @@
     justify-content: space-around;
     align-items: center;
     margin-right: 10px;
-
     padding: 50px;
     width: 200px;
     height: 100px;
@@ -184,10 +238,8 @@
 
 /* BLOGS SECTION */
 
-.blogs{
+.blogs {
     display: flex;
-    
-
 }
 
 
@@ -211,7 +263,6 @@
     flex-direction: column;
     border: 1px solid grey;
     background-color: rgb(188, 244, 241);
-
     text-align: center;
     justify-content: center;
     margin-right: 10px;
@@ -219,15 +270,17 @@
 }
 
 .form-values {
+    align-items: center;
     padding: 20px;
     display: flex;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     width: 500px;
     height: 15px;
 }
 
 .contact-detail {
     display: flex;
+    flex-wrap: row-wrap;
     flex-direction: column;
     padding: 50px;
 
@@ -235,28 +288,128 @@
 
 .form-tags {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 30px;
 }
+
+.form-submit {
+    display: flex;
+    border: 2px solid rgb(17, 14, 14);
+    border-radius: 20px;
+    justify-content: center;
+    /* width: 70px; */
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(44, 113, 129);
+
+    margin-left: 545px;
+    margin-bottom: 80px;
+    font-size: 10px;
+} 
 
 .names {
     padding: 20px;
 }
 
-.blogs{
+.blogs {
     display: flex;
-    border: 1px solid red;
-    margin: 70px;
-    height: 500px;
+    /* border: 1px solid red; */
+    margin: 68px;
+    height: 595px;
+    /* justify-content: center; */
+    align-items: center;
 }
 
-.blog-sections{
+.blog-sections {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    /* flex-direction: column;
+    border: 1px solid grey;
+    
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px rgb(6, 4, 4);
+    background-color: rgb(255, 209, 209); */
 }
 
-.blog-part-1{
-    border: 1px solid rgb(236, 89, 89);
-    margin-left: 200px;
+.blog-part-1 {
+    /* border: 1px solid rgb(236, 89, 89); */
+    margin-left: 30px;
+    height: 70px;
+    width: 500px;
+    text-align: left;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 5px rgb(6, 4, 4); */
+}
+
+.blog-part-2 {
+    display: flex;
+    /* border: 1px solid rgb(236, 89, 89); */
     height: 400px;
-    width: 300px;
+    width: 1017px;
+    margin: 33px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(6, 4, 4);
+}
+
+.information-blogs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 48.3%;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 10px 10px 5px rgb(6, 4, 4);
+    background-color: rgb(195, 249, 219);
+}
+
+.blog-topic {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.blog-content {
+    /* border: 1px solid black; */
+    height: auto;
+    margin: 40px;
+    text-align: center;
+}
+
+.details-tag{
+    display: flex;
+}
+
+input[type=text],
+input[type=email]{
+    border: 2px solid cyan;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(115, 183, 198);
+    border-radius: 10px;
+}
+
+input[type=button]{
+    /* display: flex; */
+    /* flex-wrap: row-wrap; */
+    /* border: 2px solid rgb(17, 14, 14); */
+    border-radius: 20px;
+    
+    cursor: pointer;
+    /* width: 70px; */
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(44, 113, 129);
+    font-size: 10px;
 }
