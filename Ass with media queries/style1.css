@@ -1,0 +1,96 @@
+@media screen and (max-width: 500px){
+    .screen1 {
+        height: 100vh;
+        
+    }
+    
+    .screen1_block{
+        position: absolute;
+        top: 200px;
+        left: 150px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .screen1_name {
+        height: 100%;
+        width: 90%;
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        margin-left:0;
+        overflow:visible;
+    }
+
+    .nm{
+        font-size: 40px;
+    }
+    
+    .fed {
+        font-size: 20px;
+    }
+
+
+    
+    .screen2_in{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .education{
+        width: 100%;
+    }
+
+    .myphoto{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myphoto_in{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myphoto_in img{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .screen3_in {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skills,
+    .projects{
+        width: 100%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .screen3_4_in{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screen4_in{
+        flex-direction:column;
+        align-items: center;    
+    }
+
+    .contact_me {
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .contact-form-card {
+        margin: 15px;
+    }
+}

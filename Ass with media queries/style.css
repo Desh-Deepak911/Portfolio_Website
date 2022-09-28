@@ -1,0 +1,265 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.screen_blue{
+    background-color: rgba(15, 15, 79, 0.9);
+    width: 100%;
+    /* height: 608.5px; */
+    height: 100%;
+    /* border-bottom: 1px solid black; */
+}
+
+.screen_white{
+    background-color: white;
+    width: 100%;
+    /* height: 608.5px; */
+    height: 100%;
+}
+
+/* SCREEN 1  */
+
+.screen1{
+    /* border: 2px black solid; */
+    background-image: url(backgroundimage.jpg);
+    width: 100%;
+    height: 608.5px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+/* .nav_bar{
+    position:fixed;
+    top:5px;
+} */
+
+.screen1_block{
+    display: flex;
+    border: orange 4px solid;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    height: 350px;
+    width: 350px;
+   
+}
+
+
+.screen1_name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 35px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nm{
+    font-size: 60px;
+}
+
+.fed {
+    font-size: 35px;
+}
+
+/* SCREEN 2 */
+
+.screen2_in{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    height:100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding:5px; */
+
+}
+
+.myphoto {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+}
+
+.myphoto_in{
+    display: flex;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+
+.myphoto_in img{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 80px;
+    padding: 6px;
+    border:rgb(15, 15, 79) 5px solid;
+    /* box-shadow: 4px 4px 4px 4px rgba(15, 15, 79, 0.7); */
+    background-color: rgba(15, 15, 79, 0.4);
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color:white;
+    padding: 20px;
+    /* border: 2px solid rgb(15, 15, 79); */
+
+}
+
+.edu{
+    border: 2px solid rgb(15, 15, 79);
+    margin: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: rgba(15, 15, 79, 0.4) ;
+    box-shadow: 4px 4px 2px rgba(15, 15, 79, 0.7);
+}
+
+/* SCREEN 3 */
+
+.screen3_in{
+    display: flex;
+    /* grid-template-columns: repeat(1, 500px auto); */
+    height:100%;
+    color: white;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.skill_in{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* grid-template-columns: repeat(1, 150px 300px); */
+    /* grid-template-rows: repeat(7,auto); */
+    /* text-align: center; */
+    justify-content: center;
+    align-items: centre;
+    height:100%;
+    padding: 20px;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.projects_in{
+    display: flex;
+    height:100%;
+    padding: 15px;
+
+}
+
+/* SCREEN 3_4  */
+
+.col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-4 > img {
+    height: 150px;
+    width: 150px;
+}
+
+.screen3_4_in{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    height:auto;
+    color:rgb(15, 15, 79);  
+    margin: 20px;  
+    margin-left: 50px;
+    padding: 10px;
+    /* border: 2px solid white;    */
+
+}
+
+
+/* SCREEN 4 */
+
+.screen4_in{
+    display: flex;
+    height:100%;
+    padding-bottom: 20px;
+    color:white;
+    justify-content: space-evenly;
+}
+
+
+.contact-form-card{
+    border:rgb(15, 15, 79) 5px solid;
+    background-color: rgba(15, 15, 79, 0.4);
+    box-shadow: 4px 4px 2px rgba(15, 15, 79, 0.7);
+    /* color:rgb(15, 15, 79); */
+    border-radius: 15px;
+    padding: 5px;
+    margin: 40px;
+}
+
+.contact-them {
+    display: flex;
+}
+
+.contact_me{
+    display: flex;
+    border:rgb(15, 15, 79) 5px solid;
+    background-color: rgba(15, 15, 79, 0.4);
+    box-shadow: 4px 4px 2px rgba(15, 15, 79, 0.7);
+    /* color:rgb(15, 15, 79); */
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 40px;
+    height:520px;
+    width: 300px;
+
+
+}
+
+.contact_me > div > img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding:5px;
+    border:rgb(15, 15, 79) 5px solid;
+    background-color: rgba(15, 15, 79, 0.4);
+
+}
+
+.footer{
+
+    background-color: rgba(15, 15, 79, 0.4);
+
+}
+
+
+
